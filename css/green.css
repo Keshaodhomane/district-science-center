@@ -1,0 +1,46 @@
+/* background:#393F28 hara */
+/* background:#CDA450 pila */
+/* background:#646C49  lite hara */
+
+.topstrip, .leftlinks-int, .greenbutton, .nav-tabs .nav-link, .dark-green, .bigfooter{
+
+    background:#0C7918;
+    
+    }
+    
+    .logoandtitle, .threedshows, .light-green  {
+    
+        background:#C1EAC6;
+    }
+    
+    .lightbluebox {
+        background:#C1EAC6;
+    }
+    
+    
+    .navbar-light .navbar-nav .nav-link, .light-green h3, .abouttext h3, .lightbluebox h2, .science-exhibition h2, .photogallery h2{
+    
+        color:#0C7918;
+    
+    }
+    
+    
+    .dark-green .greenbutton{background: #0C7918;}
+
+
+    .smallfooter{background:#06400D;}
+    
+    
+    
+    .header-img{
+        background:#0C7918;
+    }
+    
+    
+    .newsbg{background:#0C7918 url(../images/transparent-bg.png) ;}
+    
+    
+    
+    .scrolling-news li {
+    background:rgba(237, 169, 164, 0.4);
+    }

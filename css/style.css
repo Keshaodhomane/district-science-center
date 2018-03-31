@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+
+
+h1, h2, h3, h4, h5, p, ul, li{list-style: none; margin:0; padding:0;}
+
+
+p{
+
+font-family:"roboto";
+text-align: justify;
+
+}
+
+.topstrip {
+    background: #01524B;
+    min-height: 40px;
+}
+
+
+
+
+
+
+
+.logoandtitle {
+
+    background:#76CAD4;
+    display:grid;
+    grid-template-columns: auto 100px 100px 100px auto;
+    grid-gap: 20px;
+    padding: 20px 0;
+    
+       
+       
+
+}
+
+.webtitle h1
+{
+
+    font-family: "roboto condensed";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:2em;
+    
+}
+
+
+.webtitle h3{
+
+
+    text-transform: uppercase;
+    font-size:1.2em;
+    font-family: "roboto condensed";
+    font-weight: bold;
+    color: #4B4B4B;
+
+}
+
+
+.webtitle h5{
+
+    color: #7B7B7B;
+    font-size:0.9em;
+    font-family: "roboto condensed";
+    font-weight: bold;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+
+color:#01524B;
+font-family:"roboto condensed";
+font-weight: bold;
+
+}
+
+.header-img{background:#01524B;}
+
+.diagram-bg{
+
+background:url(../images/transparent-bg.png);
+padding:40px 40px;
+
+}
+
+.linkimgcontainer{
+
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-gap:0 20px;
+
+}
+
+.leftlinks{height: 100%;}
+
+
+
+
+.leftlinks ul li a{
+
+color: #fff;
+display: block;
+min-width: 100%;
+text-decoration:none;
+font-family: "roboto condensed";
+font-size:1.1em;
+font-weight: bold;
+padding: 20px 0 20px 37px;
+border-bottom: 1px solid #00453F;
+
+}
+
+
+
+.leftlinks ul li:nth-child(1) a{ 
+    background: url(../images/icon-program-calender.svg) no-repeat left center;
+    background-size: 32px 32px;
+} 
+
+
+
+
+.leftlinks ul li:nth-child(2) a{ 
+    background: url(../images/icon-photo-gallery.svg) no-repeat left center;
+    background-size: 32px 32px;
+} 
+
+
+
+.leftlinks ul li:nth-child(3) a{ 
+    background: url(../images/icon-exabition-gallery.svg) no-repeat left center;
+    background-size: 32px 32px;
+} 
+
+
+
+.leftlinks ul li:nth-child(4) a{ 
+    background: url(../images/icon-3d-glasses.svg) no-repeat left center;
+    background-size: 32px 32px;
+} 
+
+
+
+.leftlinks ul li:nth-child(5) a{ 
+    background: url(../images/icon-planetarium.svg) no-repeat left center;
+    background-size: 32px 32px;
+} 
+
+
+.leftlinks ul li:nth-child(6) a{ 
+    background: url(../images/icon-creative-ability-center.svg) no-repeat left center;
+    background-size: 32px 32px;
+} 
+
+
+
+
+.carousel-inner {
+    border-radius: 10px;
+    border: 10px solid #fff;
+}
+
+
+.about-dharampur-center{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+    grid-template-rows: 1fr ;
+    padding:50px 0;
+}
+
+.greenbutton{
+    background-color:#01524B;
+    padding: 10px 20px ;
+    color: #fff;
+    font-family: "roboto condensed";
+    text-transform:uppercase;
+    font-weight: bold;
+    border-radius: 2px;
+    position:relative;
+}
+
+.greenbutton:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.greenbutton span{padding-right:20px;}
+
+.greenbutton span:after {
+    content: url('../images/rightarrow.svg');
+    display:block;
+    width:15px;
+    position: absolute;
+    right: 10px;
+    top:8px;
+}
+
+.abouttext h3{
+    font-family: 'roboto condensed';
+    font-weight: bold;
+    color: #01524B;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.news-3dshows{
+display:grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.newsbg{
+ background:#01524B url(../images/transparent-bg.png);
+ padding-left:40px;
+ padding-top:40px;
+ padding-right:40px;
+}
+
+.threedshows{
+background:#76CAD4;
+padding-right:40px;
+padding-top:40px;
+padding-left:40px;
+
+}
+
+
+.newsbg h2{
+
+    font-family:"roboto condensed";
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    padding-left:50px;
+    background: url(../images/clock.svg) no-repeat left center;
+
+}
+
+.scrolling-news li{
+
+    display: block;
+    margin-bottom:15px;
+    background:rgba(106,196,184,0.4);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+.scrolling-news li h4{
+
+font-size:1.2em;
+font-family: "roboto condensed";
+padding-bottom:10px;
+
+}
+
+
+.clock{
+display:inline-block;
+padding-left:30px;
+background: url(../images/clock.svg) no-repeat left top;
+background-size:20px 20px;
+}
+
+
+
+.nav-ico{
+    display:inline-block;
+    padding-left:30px;
+    background: url(../images/clock.svg) no-repeat left top;
+    background-size:20px 20px;
+    margin-left:20px;
+    }
+
+
+.tab-pane {background:#fff;}
+
+
+
+.item-3dshows{
+
+
+        display: grid;
+        grid-template-columns:1fr 3fr;
+        grid-gap:10px;
+        padding: 20px 10px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+
+}
+
+.imgholder img{
+
+        border-radius:3px;
+    }
+
+
+.contholder h5{
+
+        font-family: "roboto condensed";
+        font-size:1.4em;
+        color: #153961;
+
+    }
+
+.contholder p{color: #585858;}
+
+.contholder span{
+
+        color: #153961;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+
+
+.nav-link{
+
+        font-family: "roboto condensed";
+        font-weight: bold;
+    }
+
+
+.nav-tabs .nav-link{
+
+        color: #fff;
+        background:#01524B;
+}
+
+
+.lightbluebox{
+    background:rgba(207,236, 240);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.lightbluebox > div{
+
+        padding:40px;
+}
+
+
+.lightbluebox > div:nth-child(1){
+
+border-right: 1px solid rgba(0,0,0,0.1);
+
+}
+
+
+.lightbluebox h2{
+        text-transform: uppercase;
+        font-size:1.6em;
+        font-family: "roboto condensed";
+        font-weight:bold;
+        color: #153961;
+}
+
+
+.whitebox{background: #fff;
+margin-top:30px;
+padding:20px;
+border-radius: 5px;
+}
+
+.whitebox ul li{
+    padding:10px 0; 
+    border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+.whitebox ul li b{
+    color: #153961;
+}
+
+
+.mobilescience{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px 40px;
+}
+
+.science-exhibition{
+    padding-right: 30px;
+}
+
+.science-exhibition h2, .photogallery h2{
+
+    color: #153961;
+    font-family: "roboto condensed";
+    font-weight: bold;
+    text-transform:uppercase;
+
+}
+
+
+.photogallery{
+
+
+    padding: 40px 40px;
+    border-top:1px solid rgba(0,0,0,0.1);
+
+
+}
+
+.photogallerycontainer {
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+
+.light-green{
+
+    background: #5ABC93;
+    text-align: center;
+    justify-content:middle;
+    padding-top:80px;
+
+}
+
+.dark-green{
+
+    background:#01524B;
+    justify-content:middle;
+    text-align: center;
+    padding-top:80px;
+
+
+}
+
+
+.light-green h3, .dark-green h3{
+
+    font-family: "roboto condensed";
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #fff;
+    
+
+}
+
+
+.dark-green .greenbutton{background:#5ABC93; }
+
+
+
+
+
+.bigfooter{
+
+    background: #01524B;
+    padding: 20px 30px;
+
+
+  }
+
+
+
+
+  .smallfooter{
+
+    background: #063B36;
+    padding: 10px 30px;
+
+
+  }
+
+
+  .bigfooter {
+
+
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 30px;
+      color: #fff;
+
+  }
+
+
+  .bigfooter a{
+
+    color: #fff;
+
+  }
+
+  .bigfooter h3{
+    padding-bottom:20px;
+    margin-bottom: 10px;
+    border-bottom:1px solid #5ABC93;
+    font-family:"roboto condensed";
+    font-size:1.5em;
+    font-weight: bold;
+  }
+
+
+  .bigfooter ul li a
+  {
+
+    background:url(../images/rightbull.svg) no-repeat left center;
+    background-size:15px auto;
+    padding-left:20px;
+
+  }
+
+
+  .smallfooter{
+
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    color: #fff;
+
+  }
+
+
+  .smallfooter a{color: #fff;}
+
+
+
+
+  
+
+.allinline * {
+    font-size: 12px;
+}
+
+.allinline a,
+.allinline span {
+    color: #fff;
+    line-height: 30px;
+    display: inline-block;
+    *display: inline;
+    margin: 0 5px;
+}
+
+.skiptomain {
+    background: url(../images/downarrow_icon.svg) no-repeat center left;
+    background-size: 15px auto;
+    padding-left: 20px;
+}
+
+
+
+.skiptonav {
+    background: url(../images/downarrow_icon.svg) no-repeat center left;
+    background-size: 15px auto;
+    padding-left: 20px;
+}
+
+
+
+.screenreader {
+    background: url(../images/speaker_icon.svg) no-repeat center left;
+    background-size: 20px auto;
+    padding-left: 30px;
+}
+
+
+.internal-page{
+
+ display: grid;
+ grid-template-columns: 1fr 4fr;
+ grid-gap: 30px;
+ padding: 30px 40px;
+ border-top: 1px solid rgba(0,0,0,0.1);
+
+}
+
+
+.leftlinks-int
+{
+background: #01524B;
+padding: 10px;
+border-radius: 5px;
+}
+
+
+
+.rightbox {padding: 20px;}
+
+
+.rightbox h2{
+
+font-family: "roboto condensed";
+font-size: 1.8em;
+color: #01524B;
+font-weight: bold;
+
+
+}
+
+
+.black-css{  line-height: 22px !important; width: 20px; background: #6D6D6D; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
+.blue-css{   line-height: 22px !important; width: 20px; background: #153961; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
+.green-css{  line-height: 22px !important; width: 20px; background: #1AA82A; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
+.orange-css{ line-height: 22px !important; width: 20px; background: #D5473D; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
